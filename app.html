@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculator App</title>
+
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/secondtheme.css">
+    <link rel="stylesheet" href="styles/thirdtheme.css">
+    <link rel="stylesheet" href="styles/media.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- CALCULATOR CONTAINER -->
+    <div class="container">
+
+        <!-- TOP SECTION -->
+        <div class="top">
+            <h2>calc</h2>
+            <div class="right">
+                <p>theme</p>
+                <div class="toggler">
+                    <div class="numbers">
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+                    </div>
+                    <div class="toggle">
+                        <div class="c"></div>
+                        <div class="first" data-theme="first"></div>
+                        <div class="second" data-theme="second"></div>
+                        <div class="third" data-theme="third"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- display section -->
+        <div class="display">
+            <div class="number">
+                <input type="text" placeholder="#" id="numbers" class="nums" value="0">
+            </div>
+        </div>
+
+        <!-- btns section -->
+
+        <div class="btn_container">
+            <!-- row 1 -->
+            <button type="button" class="btn number-7" value="7">7</button>
+            <button type="button" class="btn number-8 " value="8">8</button>
+            <button type="button" class="btn number-9 " value="9">9</button>
+            <button type="button" class="btn function del" value="del">del</button>
+            <!-- row 2 -->
+            <button type="button" class="btn number-4" value="4">4</button>
+            <button type="button" class="btn number-5" value="5">5</button>
+            <button type="button" class="btn number-6" value="6">6</button>
+            <button type="button" class="btn operator" value="+">+</button>
+            <!-- row 3 -->
+            <button type="button" class="btn number-1" value="1">1</button>
+            <button type="button" class="btn number-2" value="2">2</button>
+            <button type="button" class="btn number-3" value="3">3</button>
+            <button type="button" class="btn operator" value="-">-</button>
+            <!-- row 4 -->
+            <button type="button" class="btn operator" value=".">.</button>
+            <button type="button" class="btn number-0" value="0">0</button>
+            <button type="button" class="btn function" value="/">/</button>
+            <button type="button" class="btn operator mul" value="x">x</button>
+            <!-- row-5 -->
+            <button type="button" class="btn function reset">reset</button>
+            <button type="button" class="btn function equals">=</button>
+        </div>
+
+    </div>
+
+    <!-- JS FILE -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>

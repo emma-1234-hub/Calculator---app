@@ -1,0 +1,64 @@
+/* SECOND THEME */
+
+:root {
+    --body2: hsl(0, 0%, 90%);
+    --equals2: hsl(25, 98%, 40%);
+    --lightO2: hsl(35, 11%, 70%);
+    --reset2: hsl(185, 42%, 37%);
+    --screen2: hsl(0, 0%, 93%);
+    --toggle2: hsl(0, 0%, 93%);
+    --togglebtn2: hsl(25, 98%, 40%);
+    --White2: hsl(60, 10%, 19%);
+}
+
+.second-theme {
+    background-color: var(--body2);
+}
+
+.second-theme p,
+.second-theme h2,
+.second-theme button {
+    color: var(--White2);
+}
+
+.second-theme .btn {
+    box-shadow: 0px 5px hsl(35, 11%, 61%);
+}
+
+.second-theme .first {
+    background-color: var(--togglebtn2);
+    transform: translateX(2.1em);
+}
+
+.second-theme .reset,
+.second-theme .del,
+.second-theme .equals {
+    color: var(--screen2);
+}
+
+.second-theme .reset,
+.second-theme .del {
+    background-color: var(--reset2);
+    box-shadow: 0px 5px hsl(185, 58%, 25%);
+}
+
+.second-theme .equals {
+    background-color: var(--equals2);
+    box-shadow: 0px 5px hsl(25, 99%, 27%);
+}
+
+.second-theme .btn_container {
+    background-color: var(--lightO2);
+}
+
+.second-theme .display {
+    background-color: var(--screen2);
+}
+
+.second-theme .nums {
+    color: var(--White2);
+}
+
+.second-theme .toggle {
+    background-color: var(--lightO2);
+}
